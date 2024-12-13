@@ -91,7 +91,7 @@ const fallbackQuotes = [
 
 async function fetchQuote() {
     try {
-        const response = await fetch("https://api.quotable.io/random");
+        const response = await fetch("https://api.quotable.io");
         if (!response.ok) throw new Error("Network response was not ok");
         const data = await response.json();
         quoteText.innerText = `"${data.content}"`;
