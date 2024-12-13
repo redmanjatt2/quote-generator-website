@@ -1,4 +1,5 @@
-/* Gaming-Inspired Dark Theme */
+/* Responsive Design Updates */
+
 body {
     font-family: 'Courier New', monospace;
     background-color: #0d1117; /* Dark gaming background */
@@ -8,36 +9,38 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .container {
     text-align: center;
-    max-width: 700px;
+    max-width: 90%;
+    width: 700px;
     background: linear-gradient(145deg, #161b22, #21262d);
-    padding: 25px;
+    padding: 20px;
     border-radius: 15px;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
 }
 
 h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    color: #ff0000; /* Neon blue for header */
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #ff0000; /* Neon red for header */
     text-shadow: 0 0 10px #ff0000;
 }
 
 #quote {
-    font-size: 1.8rem;
-    margin: 20px 0;
+    font-size: 1.5rem;
+    margin: 15px 0;
     font-style: italic;
     color: #f0f6fc;
     text-shadow: 0 0 5px #ff7b72;
 }
 
 #author {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
+    font-size: 1rem;
+    margin-bottom: 15px;
     color: #8b949e;
 }
 
@@ -45,7 +48,7 @@ button {
     background: #238636;
     color: #f0f6fc;
     border: none;
-    padding: 12px 25px;
+    padding: 10px 20px;
     font-size: 1rem;
     font-weight: bold;
     text-transform: uppercase;
@@ -63,4 +66,46 @@ button:hover {
 button:active {
     transform: scale(0.95);
     background: #238636;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    #quote {
+        font-size: 1.2rem;
+    }
+
+    #author {
+        font-size: 0.9rem;
+    }
+
+    button {
+        font-size: 0.9rem;
+        padding: 8px 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    #quote {
+        font-size: 1rem;
+    }
+
+    #author {
+        font-size: 0.8rem;
+    }
+
+    button {
+        font-size: 0.8rem;
+        padding: 6px 15px;
+    }
 }
