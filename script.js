@@ -85,6 +85,16 @@ const fallbackQuotes = [
     { content: "The future depends on what you do today.", author: "Mahatma Gandhi" },
     { content: "Liberty, equality, fraternity.", author: "French Revolution" },
     { content: "The pen is mightier than the sword.", author: "Edward Bulwer-Lytton" },
+    { content: "The only way to achieve the impossible is to believe it is possible.", author: "Charles Kingsleigh" },
+    { content: "The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well.", author: "Ralph Waldo Emerson" },
+    { content: "Your mind is a powerful thing. When you fill it with positive thoughts, your life will start to change.", author: "Anonymous" },
+    { content: "Success isn’t just about what you accomplish in your life; it’s about what you inspire others to do.", author: "Unknown" },
+    { content: "Don’t wait. The time will never be just right.", author: "Napoleon Hill" },
+    { content: "The best way to get started is to quit talking and begin doing.", author: "Walt Disney" },
+    { content: "Act as if what you do makes a difference. It does.", author: "William James" },
+    { content: "The best time to plant a tree was 20 years ago. The second best time is now.", author: "Chinese Proverb" },
+    { content: "Go confidently in the direction of your dreams. Live the life you have imagined.", author: "Henry David Thoreau" },
+    { content: "You only live once, but if you do it right, once is enough.", author: "Mae West" },
     // Add more quotes as needed...
 ];
 
