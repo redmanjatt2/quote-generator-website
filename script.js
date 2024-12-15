@@ -95,7 +95,7 @@ const fallbackQuotes = [
     { content: "The best time to plant a tree was 20 years ago. The second best time is now.", author: "Chinese Proverb" },
     { content: "Go confidently in the direction of your dreams. Live the life you have imagined.", author: "Henry David Thoreau" },
     { content: "You only live once, but if you do it right, once is enough.", author: "Mae West" },
- { content: "He who fears death will never do anything worthy of a man who is alive.", author: "Seneca" },
+    { content: "He who fears death will never do anything worthy of a man who is alive.", author: "Seneca" },
     { content: "We are more often frightened than hurt; and we suffer more in imagination than in reality.", author: "Seneca" },
     { content: "How long are you going to wait before you demand the best for yourself?", author: "Epictetus" },
     { content: "The happiness of your life depends upon the quality of your thoughts.", author: "Marcus Aurelius" },
